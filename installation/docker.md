@@ -239,7 +239,7 @@ docker run -d \
 - 启动镜像, 注意不要 -d 参数
 
 ```sh
-docker --name=tars-framework \
+docker run --name=tars-framework \
     --net=tars \
     -e MYSQL_HOST="172.25.0.2" \
     -e MYSQL_ROOT_PASSWORD="123456" \
